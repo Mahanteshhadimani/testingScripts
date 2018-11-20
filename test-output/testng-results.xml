@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser : chrome, Version : chrome on OS : windows 10 launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser : chrome, Version : chrome on OS : windows 10 launched]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="118806" started-at="2018-11-20T06:21:53Z" finished-at="2018-11-20T06:23:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="118806" started-at="2018-11-20T06:21:53Z" finished-at="2018-11-20T06:23:52Z">
+      <class name="tests.placeOrder">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:tests.placeOrder@57baeedf]" name="openApplication" is-config="true" duration-ms="11164" started-at="2018-11-20T06:22:33Z" finished-at="2018-11-20T06:22:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser : chrome, Version : chrome on OS : windows 10 launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="PlaceOrder()[pri:0, instance:tests.placeOrder@57baeedf]" name="PlaceOrder" duration-ms="65729" started-at="2018-11-20T06:22:44Z" finished-at="2018-11-20T06:23:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrder -->
+        <test-method status="PASS" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:tests.placeOrder@57baeedf]" name="TakeScreenshot" is-config="true" duration-ms="1" started-at="2018-11-20T06:23:50Z" finished-at="2018-11-20T06:23:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PlaceOrder status=SUCCESS method=placeOrder.PlaceOrder()[pri:0, instance:tests.placeOrder@57baeedf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.placeOrder@57baeedf]" name="closeBrowser" is-config="true" duration-ms="2069" started-at="2018-11-20T06:23:50Z" finished-at="2018-11-20T06:23:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.placeOrder -->
+      <class name="tests.viewStoreHomeSearchProduct">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:tests.viewStoreHomeSearchProduct@42e26948]" name="openApplication" is-config="true" duration-ms="13903" started-at="2018-11-20T06:21:53Z" finished-at="2018-11-20T06:22:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser : chrome, Version : chrome on OS : windows 10 launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="SearchProductInvalid()[pri:0, instance:tests.viewStoreHomeSearchProduct@42e26948]" name="SearchProductInvalid" duration-ms="8992" started-at="2018-11-20T06:22:07Z" finished-at="2018-11-20T06:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductInvalid -->
+        <test-method status="PASS" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:tests.viewStoreHomeSearchProduct@42e26948]" name="TakeScreenshot" is-config="true" duration-ms="6" started-at="2018-11-20T06:22:16Z" finished-at="2018-11-20T06:22:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchProductInvalid status=SUCCESS method=viewStoreHomeSearchProduct.SearchProductInvalid()[pri:0, instance:tests.viewStoreHomeSearchProduct@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method status="PASS" signature="SearchProductValid()[pri:0, instance:tests.viewStoreHomeSearchProduct@42e26948]" name="SearchProductValid" duration-ms="14604" started-at="2018-11-20T06:22:16Z" finished-at="2018-11-20T06:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductValid -->
+        <test-method status="PASS" signature="TakeScreenshot(org.testng.ITestResult)[pri:0, instance:tests.viewStoreHomeSearchProduct@42e26948]" name="TakeScreenshot" is-config="true" duration-ms="0" started-at="2018-11-20T06:22:31Z" finished-at="2018-11-20T06:22:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchProductValid status=SUCCESS method=viewStoreHomeSearchProduct.SearchProductValid()[pri:0, instance:tests.viewStoreHomeSearchProduct@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.viewStoreHomeSearchProduct@42e26948]" name="closeBrowser" is-config="true" duration-ms="2312" started-at="2018-11-20T06:22:31Z" finished-at="2018-11-20T06:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.viewStoreHomeSearchProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
